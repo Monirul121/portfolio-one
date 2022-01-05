@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.introduction-flex{
+    width: 90%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin:50px auto;
+}
+.introduction-information{
+    width: 50%;
+    margin-right:90px;
+}
+.introduction-title{
+    border-left:3px solid darkred;
+    padding-left: 10px;
+}
+#intro-name{
+    color: orangered;
+    line-height: 2;
+}
+.introduction-about{
+    margin-top: 20px;
+    padding: 5px;
+}
+.introduction-about p{
+    font-size: 16px;
+    line-height: 1.7;
+}
+#hire-me{
+    background-color: #eb3f3f;
+    padding:10px 20px;
+    margin:20px 5px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.introduction-img{
+    width:50%;
+}
+.introduction-img img{
+    width:70%;
+}
+
+/* ==== Mission-section ====*/
+.mission-section h2{
+    text-align: center;
+}
+
+#mission-span{
+    color: darkred;
+}
+
+.mission-flex{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.mission-items{
+    width: 30%;
+    padding:20px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mission-items img{
+    width:100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.mission-items h4{
+    font-size: 18px;
+    line-height:2;
+}
+/* ==== items background ==== */
+.bg-1{
+    background-color: rgba(143, 229, 220, 0.342);
+}
+
+.bg-2{
+    background-color: rgba(188, 143, 143, 0.308);
+}
+.bg-3{
+    background-color: rgba(245, 222, 179, 0.747);
+}

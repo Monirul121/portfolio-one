@@ -1,0 +1,9 @@
+@media (max-width:800px) {
+    .mission-flex{
+        display: flex;
+      flex-direction: column;
+    }
+    .mission-items{
+        width: 100%;
+    }
+}
