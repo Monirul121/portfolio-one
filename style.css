@@ -15,13 +15,16 @@ h2{
 a{
     text-decoration: none;
 }
-.introduction-flex{
+
+.flex{
     width: 90%;
     display: flex;
-    padding: 10px;
     align-items: center;
+    justify-content: space-around;
     margin:50px auto;
 }
+
+
 .introduction-information{
     width: 50%;
     margin-right:90px;
@@ -39,10 +42,12 @@ a{
     padding: 5px;
 }
 .introduction-about p{
+    color: #383535;
     font-size: 16px;
     line-height: 1.7;
+    font-family: 'Poppins';
 }
-#hire-me{
+.button{
     background-color: #eb3f3f;
     padding:10px 20px;
     margin:20px 5px;
@@ -59,7 +64,7 @@ a{
     width:50%;
 }
 .introduction-img img{
-    width:70%;
+    width:80%;
 }
 
 /* ==== Mission-section ====*/
@@ -71,13 +76,7 @@ a{
     color: darkred;
 }
 
-.mission-flex{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 30px auto;
-}
+
 .mission-items{
     width: 30%;
     padding:20px;
@@ -97,6 +96,12 @@ a{
     font-size: 18px;
     line-height:2;
 }
+.mission-items p{
+    color: #383535;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Poppins';
+}
 /* ==== items background ==== */
 .bg-1{
     background-color: rgba(143, 229, 220, 0.342);
@@ -107,4 +112,60 @@ a{
 }
 .bg-3{
     background-color: rgba(245, 222, 179, 0.747);
+}
+/*=== develop-section ====*/
+
+.develop-img{
+    width: 50%;
+}
+.develop-img img{
+    width:80%;
+}
+.develop-text{
+    width: 50%;
+}
+.develop-text p{
+    margin-top: 10px;
+    color: #383535;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Poppins';
+}
+/*=== community-flex ====*/
+
+.community-text{
+    width: 50%;
+    padding: 10px;
+    margin-right:70px;
+}
+.community-text p{
+    margin-top: 10px;
+    color: #383535;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Poppins';
+}
+.community-img{
+    width: 50%;
+}
+
+.community-img img{
+    width:80%
+}
+
+
+
+/*  ===footer====*/
+footer{
+    width: 100%;
+    background-color: rgb(8, 6, 6);
+    padding:20px;
+    text-align: center;
+    color: white;
+}
+#footer-span{
+color: rgba(243, 7, 243, 0.767);
+}
+footer h3{
+    line-height: 2.7;
 }
