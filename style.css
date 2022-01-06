@@ -153,8 +153,48 @@ a{
     width:80%
 }
 
-
-
+/* === blog-section=== */
+.blog-section h2{
+    text-align: center;
+}
+#blog{
+    color: darkorange;
+}
+.blog-button{
+    background-color: #eb3f3f;
+    padding:10px 20px;
+    margin:10px 0;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.blog-item{
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    background-color: #dfdcdc;
+    box-shadow: 0 0 5px rgb(0 0 0 / 40%);
+}
+.blog-img img{
+    width: 100%;
+    height:10rem;
+}
+.blog-text{
+    padding: 10px;
+    padding-bottom: 0;
+}
+.blog-text p{
+    margin-top: 10px;
+    color: #383535;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Poppins';
+}
 /*  ===footer====*/
 footer{
     width: 100%;

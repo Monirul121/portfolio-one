@@ -33,6 +33,12 @@
 .mission-items{
     width: 100%;
 }
+.blog-item{
+    width: 90%;
+    padding: 5px;
+    background-color: #dfdcdc;
+    box-shadow: 0 0 5px rgb(0 0 0 / 40%);
+}
 
 }
 
