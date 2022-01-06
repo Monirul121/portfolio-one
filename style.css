@@ -164,8 +164,7 @@ a{
     width: 30%;
     padding: 5px;
     margin: 10px;
-    background-color: #dfdcdc;
-    box-shadow: 0 0 5px rgb(0 0 0 / 40%);
+    Box-shadow: 0 0 10px RGBA(0.0.0.1);
 }
 .blog-img img{
     width: 100%;
