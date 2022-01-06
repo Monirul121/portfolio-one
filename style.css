@@ -16,6 +16,7 @@ a{
     text-decoration: none;
 }
 
+/* === introduction-section ==== */
 .flex{
     width: 90%;
     display: flex;
@@ -24,6 +25,13 @@ a{
     margin:50px auto;
 }
 
+.pra-style{
+    margin-top: 10px;
+    color: #383535;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Poppins';
+}
 
 .introduction-information{
     width: 50%;
@@ -38,15 +46,10 @@ a{
     line-height: 2;
 }
 .introduction-about{
-    margin-top: 20px;
+    margin-top:10px;
     padding: 5px;
 }
-.introduction-about p{
-    color: #383535;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Poppins';
-}
+
 .button{
     background-color: #eb3f3f;
     padding:10px 20px;
@@ -96,12 +99,7 @@ a{
     font-size: 18px;
     line-height:2;
 }
-.mission-items p{
-    color: #383535;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Poppins';
-}
+
 /* ==== items background ==== */
 .bg-1{
     background-color: rgba(143, 229, 220, 0.342);
@@ -124,27 +122,15 @@ a{
 .develop-text{
     width: 50%;
 }
-.develop-text p{
-    margin-top: 10px;
-    color: #383535;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Poppins';
-}
-/*=== community-flex ====*/
+
+/*=== community-section ===*/
 
 .community-text{
     width: 50%;
     padding: 10px;
     margin-right:70px;
 }
-.community-text p{
-    margin-top: 10px;
-    color: #383535;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Poppins';
-}
+
 .community-img{
     width: 50%;
 }
@@ -154,6 +140,7 @@ a{
 }
 
 /* === blog-section=== */
+
 .blog-section h2{
     text-align: center;
 }
@@ -188,13 +175,7 @@ a{
     padding: 10px;
     padding-bottom: 0;
 }
-.blog-text p{
-    margin-top: 10px;
-    color: #383535;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Poppins';
-}
+
 /*  ===footer====*/
 footer{
     width: 100%;
